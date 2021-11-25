@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Главная</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="_fonts.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="libs/swiper/swiper.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <div class="page">
+            <div class="page__row page__row--wrapper">
+                <div class="page__cell page__cell--fluid">
+                    <div class="page__row page__row--header">
+                        <div class="page__cell">
+                            <header class="header">
+                                <div class="header__hamburger">
+                                    <button class="hamburger" type="button" data-target="#nav"></button>
+                                </div>
+                                <div class="header__brand">
+                                    <a class="brand brand--header" href="#">
+                                        <img src="img/svg/brand.svg" alt="brand" class="brand__picture">
+                                    </a>
+                                </div>
+                                <div class="header__search">
+                                    <div class="search">
+                                        <form class="search__form" action="#" method="GET" novalidate="novalidate">
+                                            <div class="search__input-wrapper">
+                                                <input class="search__input" type="text" placeholder="Поиск по сайту" >
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="header__contact">
+                                    <div class="contact">
+                                        <div class="contact__wrapper">
+                                            <div class="contact__left">
+                                                <a class="contact__tel" href="#" >8 863 262 38 24</a>
+                                                <p class="contact__text">с 10 до 19 без выходных</p>
+                                            </div>
+                                            <div class="contact__right">
+                                                <a class="contact__link" href="#">Заказать звонок</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="header__city">
+                                    <div class="city">
+                                        <form class="ciry__form" action="#">
+                                            <div class="city__select-wrapper">
+                                                <select class="city__select">
+                                                    <option class="city__option" value="Ростов-на-Дону">Ростов-на-Дону</option>
+                                                    <option class="city__option" value="Ростов-на-Дону">Ростов-на-Дону</option>
+                                                </select>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="header__auth">
+                                    <div class="auth">
+                                        <a class="auth__link" href="#">Вход</a>
+                                        <span class="auth__slash">\</span>
+                                        <a class="auth__link" href="#">регистрация</a>
+                                    </div>
+                                </div>
+                                <div class="header__cart">
+                                    <a class="icon icon--cart icon--cart-header" href="#" data-cart-num="0"></a>
+                                </div>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="page__row page__row--top">
+                        <div class="page__cell">
+                            <div class="top">
+                                <div class="top__contact">
+                                    <a class="top__tel" href="#">8 863 262 38 24</a>
+                                    <p class="top__text">с 10 до 19 без выходных</p>
+                                </div>
+                                <div class="top__icons">
+                                    <a class="top__icons-link" href="#">
+                                        <img class="top__icons-picture" src="img/svg/search2.svg" alt="search">
+                                    </a>
+                                    <a class="top__icons-link" href="#">
+                                        <img class="top__icons-picture" src="img/svg/loc2.svg" alt="loc">
+                                    </a>
+                                    <a class="top__icons-link" href="#">
+                                        <img class="top__icons-picture" src="img/svg/login.svg" alt="login">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page__row page__row--nav">
+                        <div class="page__cell">
+                            <nav class="nav" id="nav">
+                                <div class="nav__wrapper">
+                                    <div class="nav__top">
+                                        <div class="nav__city">
+                                            <div class="city">
+                                                <form class="ciry__form" action="#">
+                                                    <div class="city__select-wrapper">
+                                                        <select class="city__select">
+                                                            <option class="city__option" value="Ростов-на-Дону">Ростов-на-Дону</option>
+                                                            <option class="city__option" value="Ростов-на-Дону">Ростов-на-Дону</option>
+                                                        </select>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="nav__cart">
+                                            <a class="icon icon--cart" href="#" data-cart-num="0"></a>
+                                        </div>
+                                    </div>
+                                    <div class="nav__auth">
+                                        <div class="auth">
+                                            <a class="auth__link" href="#">Вход</a>
+                                            <span class="auth__slash">\</span>
+                                            <a class="auth__link" href="#">регистрация</a>
+                                        </div>
+                                    </div>
+                                    <ul class="nav__menu">
+                                        <li class="nav__item">
+                                            <a class="nav__link" href="#">О компании</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="nav__link" href="#">Часы</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="nav__link" href="#">Аксессуары</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="nav__link" href="#">Ювелирные изделия</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="nav__link" href="#">Спецпредложение</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="nav__link" href="#">Бутики</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="nav__link" href="#">Сервис</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="nav__link" href="#">Новости</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="nav__link" href="#">Доставка и оплата</a>
+                                        </li>
+                                    </ul>
+                                    <div class="nav__search">
+                                        <div class="search">
+                                            <form class="search__form" action="#" method="GET" novalidate="novalidate">
+                                                <div class="search__input-wrapper">
+                                                    <input class="search__input" type="text" placeholder="Поиск по сайту" >
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="nav__contact">
+                                        <div class="contact">
+                                            <a class="contact__tel" href="#" >8 863 262 38 24</a>
+                                            <p class="contact__text">с 10 до 19 без выходных</p>
+                                            <a class="contact__link" href="#">Заказать звонок</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                            <span class="overlay" data-target="#nav"></span>
+                        </div>
+                    </div>
+                    <div class="page__row page__row--intro">
+                        <div class="page__cell page__cell--fluid">
+                            <div class="intro">
+                                <div class="intro-slider-block">
+                                    <div class="swiper-container intro-slider">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="intro__item" style="background-image: url(img/intro-bg-1.jpg);">
+                                                    <div class="intro__row">
+                                                        <div class="intro__cell">
+                                                            <div class="intro__image">
+                                                                <div class="intro__image-wrapper">
+                                                                    <img class="intro__picture" src="img/intro-clock.png" alt="clock" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-shine" data-aos-once="true">
+                                                                    <span class="intro__percent">-20%</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="intro__content">
+                                                                <div class="intro__text">
+                                                                    <p class="intro__discount">Скидка до <span class="intro__discount-span">-20%</span> до конца недели</p>
+                                                                    <h1 class="intro__title title title--h1">MontBlanc</h1>
+                                                                    <p class="intro__desc">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке начинающему оратору отточить</p>
+                                                                    <a class="intro__btn btn btn--default btn--lg btn--min-width" href="#">Перейти</a>
+                                                                </div>
+                                                                <div class="intro__social">
+                                                                    <div class="social">
+                                                                        <ul class="social__items social__items--primary">
+                                                                            <li class="social__item social__item--primary">
+                                                                                <a class="social__link social__link--instagram" href="#" target="_blank"></a>
+                                                                            </li>
+                                                                            <li class="social__item social__item--primary">
+                                                                                <a class="social__link social__link--facebook" href="#" target="_blank"></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="intro__item" style="background-image: url(img/intro-bg-1.jpg);">
+                                                    <div class="intro__row">
+                                                        <div class="intro__cell">
+                                                            <div class="intro__image">
+                                                                <div class="intro__image-wrapper">
+                                                                    <img class="intro__picture" src="img/intro-clock.png" alt="clock" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-shine" data-aos-once="true">
+                                                                    <span class="intro__percent">-20%</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="intro__content">
+                                                                <div class="intro__text">
+                                                                    <p class="intro__discount">Скидка до <span class="intro__discount-span">-20%</span> до конца недели</p>
+                                                                    <h1 class="intro__title title title--h1">MontBlanc</h1>
+                                                                    <p class="intro__desc">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке начинающему оратору отточить</p>
+                                                                    <a class="intro__btn btn btn--default btn--lg btn--min-width" href="#">Перейти</a>
+                                                                </div>
+                                                                <div class="intro__social">
+                                                                    <div class="social">
+                                                                        <ul class="social__items social__items--primary">
+                                                                            <li class="social__item social__item--primary">
+                                                                                <a class="social__link social__link--instagram" href="#" target="_blank"></a>
+                                                                            </li>
+                                                                            <li class="social__item social__item--primary">
+                                                                                <a class="social__link social__link--facebook" href="#" target="_blank"></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="intro__item" style="background-image: url(img/intro-bg-1.jpg);">
+                                                    <div class="intro__row">
+                                                        <div class="intro__cell">
+                                                            <div class="intro__image">
+                                                                <div class="intro__image-wrapper">
+                                                                    <img class="intro__picture" src="img/intro-clock.png" alt="clock" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-shine" data-aos-once="true">
+                                                                    <span class="intro__percent">-20%</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="intro__content">
+                                                                <div class="intro__text">
+                                                                    <p class="intro__discount">Скидка до <span class="intro__discount-span">-20%</span> до конца недели</p>
+                                                                    <h1 class="intro__title title title--h1">MontBlanc</h1>
+                                                                    <p class="intro__desc">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке начинающему оратору отточить</p>
+                                                                    <a class="intro__btn btn btn--default btn--lg btn--min-width" href="#">Перейти</a>
+                                                                </div>
+                                                                <div class="intro__social">
+                                                                    <div class="social">
+                                                                        <ul class="social__items social__items--primary">
+                                                                            <li class="social__item social__item--primary">
+                                                                                <a class="social__link social__link--instagram" href="#" target="_blank"></a>
+                                                                            </li>
+                                                                            <li class="social__item social__item--primary">
+                                                                                <a class="social__link social__link--facebook" href="#" target="_blank"></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="intro__item" style="background-image: url(img/intro-bg-1.jpg);">
+                                                    <div class="intro__row">
+                                                        <div class="intro__cell">
+                                                            <div class="intro__image">
+                                                                <div class="intro__image-wrapper">
+                                                                    <img class="intro__picture" src="img/intro-clock.png" alt="clock" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-shine" data-aos-once="true">
+                                                                    <span class="intro__percent">-20%</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="intro__content">
+                                                                <div class="intro__text">
+                                                                    <p class="intro__discount">Скидка до <span class="intro__discount-span">-20%</span> до конца недели</p>
+                                                                    <h1 class="intro__title title title--h1">MontBlanc</h1>
+                                                                    <p class="intro__desc">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке начинающему оратору отточить</p>
+                                                                    <a class="intro__btn btn btn--default btn--lg btn--min-width" href="#">Перейти</a>
+                                                                </div>
+                                                                <div class="intro__social">
+                                                                    <div class="social">
+                                                                        <ul class="social__items social__items--primary">
+                                                                            <li class="social__item social__item--primary">
+                                                                                <a class="social__link social__link--instagram" href="#" target="_blank"></a>
+                                                                            </li>
+                                                                            <li class="social__item social__item--primary">
+                                                                                <a class="social__link social__link--facebook" href="#" target="_blank"></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="intro__item" style="background-image: url(img/intro-bg-1.jpg);">
+                                                    <div class="intro__row">
+                                                        <div class="intro__cell">
+                                                            <div class="intro__image">
+                                                                <div class="intro__image-wrapper">
+                                                                    <img class="intro__picture" src="img/intro-clock.png" alt="clock" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-shine" data-aos-once="true">
+                                                                    <span class="intro__percent">-20%</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="intro__content">
+                                                                <div class="intro__text">
+                                                                    <p class="intro__discount">Скидка до <span class="intro__discount-span">-20%</span> до конца недели</p>
+                                                                    <h1 class="intro__title title title--h1">MontBlanc</h1>
+                                                                    <p class="intro__desc">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке начинающему оратору отточить</p>
+                                                                    <a class="intro__btn btn btn--default btn--lg btn--min-width" href="#">Перейти</a>
+                                                                </div>
+                                                                <div class="intro__social">
+                                                                    <div class="social">
+                                                                        <ul class="social__items social__items--primary">
+                                                                            <li class="social__item social__item--primary">
+                                                                                <a class="social__link social__link--instagram" href="#" target="_blank"></a>
+                                                                            </li>
+                                                                            <li class="social__item social__item--primary">
+                                                                                <a class="social__link social__link--facebook" href="#" target="_blank"></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="intro__item" style="background-image: url(img/intro-bg-1.jpg);">
+                                                    <div class="intro__row">
+                                                        <div class="intro__cell">
+                                                            <div class="intro__image">
+                                                                <div class="intro__image-wrapper">
+                                                                    <img class="intro__picture" src="img/intro-clock.png" alt="clock" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-shine" data-aos-once="true">
+                                                                    <span class="intro__percent">-20%</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="intro__content">
+                                                                <div class="intro__text">
+                                                                    <p class="intro__discount">Скидка до <span class="intro__discount-span">-20%</span> до конца недели</p>
+                                                                    <h1 class="intro__title title title--h1">MontBlanc</h1>
+                                                                    <p class="intro__desc">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке начинающему оратору отточить</p>
+                                                                    <a class="intro__btn btn btn--default btn--lg btn--min-width" href="#">Перейти</a>
+                                                                </div>
+                                                                <div class="intro__social">
+                                                                    <div class="social">
+                                                                        <ul class="social__items social__items--primary">
+                                                                            <li class="social__item social__item--primary">
+                                                                                <a class="social__link social__link--instagram" href="#" target="_blank"></a>
+                                                                            </li>
+                                                                            <li class="social__item social__item--primary">
+                                                                                <a class="social__link social__link--facebook" href="#" target="_blank"></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="intro__item" style="background-image: url(img/intro-bg-1.jpg);">
+                                                    <div class="intro__row">
+                                                        <div class="intro__cell">
+                                                            <div class="intro__image">
+                                                                <div class="intro__image-wrapper">
+                                                                    <img class="intro__picture" src="img/intro-clock.png" alt="clock" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-shine" data-aos-once="true">
+                                                                    <span class="intro__percent">-20%</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="intro__content">
+                                                                <div class="intro__text">
+                                                                    <p class="intro__discount">Скидка до <span class="intro__discount-span">-20%</span> до конца недели</p>
+                                                                    <h1 class="intro__title title title--h1">MontBlanc</h1>
+                                                                    <p class="intro__desc">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке начинающему оратору отточить</p>
+                                                                    <a class="intro__btn btn btn--default btn--lg btn--min-width" href="#">Перейти</a>
+                                                                </div>
+                                                                <div class="intro__social">
+                                                                    <div class="social">
+                                                                        <ul class="social__items social__items--primary">
+                                                                            <li class="social__item social__item--primary">
+                                                                                <a class="social__link social__link--instagram" href="#" target="_blank"></a>
+                                                                            </li>
+                                                                            <li class="social__item social__item--primary">
+                                                                                <a class="social__link social__link--facebook" href="#" target="_blank"></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="intro__item" style="background-image: url(img/intro-bg-1.jpg);">
+                                                    <div class="intro__row">
+                                                        <div class="intro__cell">
+                                                            <div class="intro__image">
+                                                                <div class="intro__image-wrapper">
+                                                                    <img class="intro__picture" src="img/intro-clock.png" alt="clock" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-shine" data-aos-once="true">
+                                                                    <span class="intro__percent">-20%</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="intro__content">
+                                                                <div class="intro__text">
+                                                                    <p class="intro__discount">Скидка до <span class="intro__discount-span">-20%</span> до конца недели</p>
+                                                                    <h1 class="intro__title title title--h1">MontBlanc</h1>
+                                                                    <p class="intro__desc">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке начинающему оратору отточить</p>
+                                                                    <a class="intro__btn btn btn--default btn--lg btn--min-width" href="#">Перейти</a>
+                                                                </div>
+                                                                <div class="intro__social">
+                                                                    <div class="social">
+                                                                        <ul class="social__items social__items--primary">
+                                                                            <li class="social__item social__item--primary">
+                                                                                <a class="social__link social__link--instagram" href="#" target="_blank"></a>
+                                                                            </li>
+                                                                            <li class="social__item social__item--primary">
+                                                                                <a class="social__link social__link--facebook" href="#" target="_blank"></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="intro__item" style="background-image: url(img/intro-bg-1.jpg);">
+                                                    <div class="intro__row">
+                                                        <div class="intro__cell">
+                                                            <div class="intro__image">
+                                                                <div class="intro__image-wrapper">
+                                                                    <img class="intro__picture" src="img/intro-clock.png" alt="clock" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-shine" data-aos-once="true">
+                                                                    <span class="intro__percent">-20%</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="intro__content">
+                                                                <div class="intro__text">
+                                                                    <p class="intro__discount">Скидка до <span class="intro__discount-span">-20%</span> до конца недели</p>
+                                                                    <h1 class="intro__title title title--h1">MontBlanc</h1>
+                                                                    <p class="intro__desc">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке начинающему оратору отточить</p>
+                                                                    <a class="intro__btn btn btn--default btn--lg btn--min-width" href="#">Перейти</a>
+                                                                </div>
+                                                                <div class="intro__social">
+                                                                    <div class="social">
+                                                                        <ul class="social__items social__items--primary">
+                                                                            <li class="social__item social__item--primary">
+                                                                                <a class="social__link social__link--instagram" href="#" target="_blank"></a>
+                                                                            </li>
+                                                                            <li class="social__item social__item--primary">
+                                                                                <a class="social__link social__link--facebook" href="#" target="_blank"></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="intro__item" style="background-image: url(img/intro-bg-1.jpg);">
+                                                    <div class="intro__row">
+                                                        <div class="intro__cell">
+                                                            <div class="intro__image">
+                                                                <div class="intro__image-wrapper">
+                                                                    <img class="intro__picture" src="img/intro-clock.png" alt="clock" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-shine" data-aos-once="true">
+                                                                    <span class="intro__percent">-20%</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="intro__content">
+                                                                <div class="intro__text">
+                                                                    <p class="intro__discount">Скидка до <span class="intro__discount-span">-20%</span> до конца недели</p>
+                                                                    <h1 class="intro__title title title--h1">MontBlanc</h1>
+                                                                    <p class="intro__desc">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке начинающему оратору отточить</p>
+                                                                    <a class="intro__btn btn btn--default btn--lg btn--min-width" href="#">Перейти</a>
+                                                                </div>
+                                                                <div class="intro__social">
+                                                                    <div class="social">
+                                                                        <ul class="social__items social__items--primary">
+                                                                            <li class="social__item social__item--primary">
+                                                                                <a class="social__link social__link--instagram" href="#" target="_blank"></a>
+                                                                            </li>
+                                                                            <li class="social__item social__item--primary">
+                                                                                <a class="social__link social__link--facebook" href="#" target="_blank"></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="intro-nums">
+                                    <div class="intro-nums__block">
+                                        <div class="swiper-container intro-nums-slider">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <span class="intro-nums__span">
+                                                        <span class="intro-nums__num" data-intro-num="01"></span>
+                                                    </span>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <span class="intro-nums__span">
+                                                        <span class="intro-nums__num" data-intro-num="02"></span>
+                                                    </span>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <span class="intro-nums__span">
+                                                        <span class="intro-nums__num" data-intro-num="03"></span>
+                                                    </span>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <span class="intro-nums__span">
+                                                        <span class="intro-nums__num" data-intro-num="04"></span>
+                                                    </span>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <span class="intro-nums__span">
+                                                        <span class="intro-nums__num" data-intro-num="05"></span>
+                                                    </span>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <span class="intro-nums__span">
+                                                        <span class="intro-nums__num" data-intro-num="06"></span>
+                                                    </span>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <span class="intro-nums__span">
+                                                        <span class="intro-nums__num" data-intro-num="07"></span>
+                                                    </span>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <span class="intro-nums__span">
+                                                        <span class="intro-nums__num" data-intro-num="08"></span>
+                                                    </span>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <span class="intro-nums__span">
+                                                        <span class="intro-nums__num" data-intro-num="09"></span>
+                                                    </span>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <span class="intro-nums__span">
+                                                        <span class="intro-nums__num" data-intro-num="10"></span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="intro__nav">
+                                    <div class="prev prev--intro" id="prev--intro"></div>
+                                    <div class="next next--intro" id="next--intro"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page__row">
+                        <div class="page__cell">
+                            <div class="cat">
+                                <ul class="cat__items">
+                                    <li class="cat__item">
+                                        <a class="cat__link cat__link--male" href="#">
+                                            <span class="cat__bg" style="background-image: url(img/male.jpg);"></span>
+                                            <span class="cat__text cat__text--male">Мужские <br>часы</span>
+                                        </a>
+                                    </li>
+                                    <li class="cat__item">
+                                        <a class="cat__link cat__link--female" href="#">
+                                            <span class="cat__bg" style="background-image: url(img/female.jpg);"></span>
+                                            <span class="cat__text cat__text--female">Женские <br>часы</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page__row page__row--bg-gray">
+                        <div class="page__cell">
+                            <section class="section section--default">
+                                <h4 class="section__title section__title--first title title--h4 text-center">Бренды</h4>
+                                <div class="brands">
+                                    <ul class="brands__items">
+                                        <li class="brands__item">
+                                            <a class="brands__link" href="#">
+                                                <img class="brands__picture" src="pic/brands-1.jpg" alt="brands">
+                                            </a>
+                                        </li>
+                                        <li class="brands__item">
+                                            <a class="brands__link" href="#">
+                                                <img class="brands__picture" src="pic/brands-2.jpg" alt="brands">
+                                            </a>
+                                        </li>
+                                        <li class="brands__item">
+                                            <a class="brands__link" href="#">
+                                                <img class="brands__picture" src="pic/brands-3.jpg" alt="brands">
+                                            </a>
+                                        </li>
+                                        <li class="brands__item">
+                                            <a class="brands__link" href="#">
+                                                <img class="brands__picture" src="pic/brands-4.jpg" alt="brands">
+                                            </a>
+                                        </li>
+                                        <li class="brands__item">
+                                            <a class="brands__link" href="#">
+                                                <img class="brands__picture" src="pic/brands-5.jpg" alt="brands">
+                                            </a>
+                                        </li>
+                                        <li class="brands__item">
+                                            <a class="brands__link" href="#">
+                                                <img class="brands__picture" src="pic/brands-6.jpg" alt="brands">
+                                            </a>
+                                        </li>
+                                        <li class="brands__item">
+                                            <a class="brands__link" href="#">
+                                                <img class="brands__picture" src="pic/brands-7.jpg" alt="brands">
+                                            </a>
+                                        </li>
+                                        <li class="brands__item">
+                                            <a class="brands__link" href="#">
+                                                <img class="brands__picture" src="pic/brands-8.jpg" alt="brands">
+                                            </a>
+                                        </li>
+                                        <li class="brands__item">
+                                            <a class="brands__link" href="#">
+                                                <img class="brands__picture" src="pic/brands-9.jpg" alt="brands">
+                                            </a>
+                                        </li>
+                                        <li class="brands__item">
+                                            <a class="brands__link" href="#">
+                                                <img class="brands__picture" src="pic/brands-10.jpg" alt="brands">
+                                            </a>
+                                        </li>
+                                        <li class="brands__item">
+                                            <a class="brands__link" href="#">
+                                                <img class="brands__picture" src="pic/brands-11.jpg" alt="brands">
+                                            </a>
+                                        </li>
+                                        <li class="brands__item">
+                                            <a class="brands__link" href="#">
+                                                <img class="brands__picture" src="pic/brands-12.jpg" alt="brands">
+                                            </a>
+                                        </li>
+                                        <li class="brands__item">
+                                            <a class="brands__link" href="#">
+                                                <img class="brands__picture" src="pic/brands-13.jpg" alt="brands">
+                                            </a>
+                                        </li>
+                                        <li class="brands__item">
+                                            <a class="brands__link" href="#">
+                                                <img class="brands__picture" src="pic/brands-14.jpg" alt="brands">
+                                            </a>
+                                        </li>
+                                        <li class="brands__item">
+                                            <a class="brands__link" href="#">
+                                                <img class="brands__picture" src="pic/brands-15.jpg" alt="brands">
+                                            </a>
+                                        </li>
+                                        <li class="brands__item">
+                                            <a class="brands__link" href="#">
+                                                <img class="brands__picture" src="pic/brands-16.jpg" alt="brands">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="page__row">
+                        <div class="page__cell">
+                            <section class="section section--default">
+                                <h4 class="section__title title title--h4 text-center">Хиты продаж</h4>
+                                <div class="cards">
+                                    <div class="swiper-container swiper-container-visible swiper-container--cards-main">
+                                        <div class="swiper-wrapper swiper-wrapper--cards-main">
+                                            <div class="swiper-slide swiper-slide--cards-main">
+                                                <div class="cards__item">
+                                                    <div class="cards__block cards__block--catalog">
+                                                        <div class="cards__inner">
+                                                            <div class="cards__image">
+                                                                <a class="cards__link cards__link--novelty" data-cards-discount="-20%" data-cards-label="Новинка" href="#">
+                                                                    <img src="pic/clock-1.jpg" alt="Omega" class="cards__picture">
+                                                                </a>
+                                                            </div>
+                                                            <div class="cards__content">
+                                                                <h5 class="cards__title">
+                                                                    <a class="cards__title-link" href="#">Omega</a>
+                                                                </h5>
+                                                                <span class="cards__span">De Ville</span>
+                                                                <p class="cards__price">115 000 руб.</p>
+                                                                <div class="cards__hidden">
+                                                                    <a class="cards__btn btn btn--default btn--sm btn--fluid" href="#">Купить</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide swiper-slide--cards-main">
+                                                <div class="cards__item">
+                                                    <div class="cards__block cards__block--catalog">
+                                                        <div class="cards__inner">
+                                                            <div class="cards__image">
+                                                                <a class="cards__link cards__link--special-offer" data-cards-label="Спецпредложение" href="#">
+                                                                    <img src="pic/clock-2.jpg" alt="Omega" class="cards__picture">
+                                                                </a>
+                                                            </div>
+                                                            <div class="cards__content">
+                                                                <h5 class="cards__title">
+                                                                    <a class="cards__title-link" href="#">Omega</a>
+                                                                </h5>
+                                                                <span class="cards__span">De Ville</span>
+                                                                <p class="cards__price">115 000 руб.</p>
+                                                                <div class="cards__hidden">
+                                                                    <a class="cards__btn btn btn--default btn--sm btn--fluid" href="#">Купить</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide swiper-slide--cards-main">
+                                                <div class="cards__item">
+                                                    <div class="cards__block cards__block--catalog">
+                                                        <div class="cards__inner">
+                                                            <div class="cards__image">
+                                                                <a class="cards__link" href="#">
+                                                                    <img src="pic/clock-3.jpg" alt="Omega" class="cards__picture">
+                                                                </a>
+                                                            </div>
+                                                            <div class="cards__content">
+                                                                <h5 class="cards__title">
+                                                                    <a class="cards__title-link" href="#">Omega</a>
+                                                                </h5>
+                                                                <span class="cards__span">De Ville</span>
+                                                                <p class="cards__price">115 000 руб.</p>
+                                                                <div class="cards__hidden">
+                                                                    <a class="cards__btn btn btn--default btn--sm btn--fluid" href="#">Купить</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide swiper-slide--cards-main">
+                                                <div class="cards__item">
+                                                    <div class="cards__block cards__block--catalog">
+                                                        <div class="cards__inner">
+                                                            <div class="cards__image">
+                                                                <a class="cards__link" href="#">
+                                                                    <img src="pic/clock-4.jpg" alt="Omega" class="cards__picture">
+                                                                </a>
+                                                            </div>
+                                                            <div class="cards__content">
+                                                                <h5 class="cards__title">
+                                                                    <a class="cards__title-link" href="#">Omega</a>
+                                                                </h5>
+                                                                <span class="cards__span">De Ville</span>
+                                                                <p class="cards__price">115 000 руб.</p>
+                                                                <div class="cards__hidden">
+                                                                    <a class="cards__btn btn btn--default btn--sm btn--fluid" href="#">Купить</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide swiper-slide--cards-main">
+                                                <div class="cards__item">
+                                                    <div class="cards__block cards__block--catalog">
+                                                        <div class="cards__inner">
+                                                            <div class="cards__image">
+                                                                <a class="cards__link cards__link--bestseller" data-cards-label="Хит продаж" href="#">
+                                                                    <img src="pic/clock-5.jpg" alt="Omega" class="cards__picture">
+                                                                </a>
+                                                            </div>
+                                                            <div class="cards__content">
+                                                                <h5 class="cards__title">
+                                                                    <a class="cards__title-link" href="#">Omega</a>
+                                                                </h5>
+                                                                <span class="cards__span">De Ville</span>
+                                                                <p class="cards__price">115 000 руб.</p>
+                                                                <div class="cards__hidden">
+                                                                    <a class="cards__btn btn btn--default btn--sm btn--fluid" href="#">Купить</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide swiper-slide--cards-main">
+                                                <div class="cards__item">
+                                                    <div class="cards__block cards__block--catalog">
+                                                        <div class="cards__inner">
+                                                            <div class="cards__image">
+                                                                <a class="cards__link" href="#">
+                                                                    <img src="pic/clock-1.jpg" alt="Omega" class="cards__picture">
+                                                                </a>
+                                                            </div>
+                                                            <div class="cards__content">
+                                                                <h5 class="cards__title">
+                                                                    <a class="cards__title-link" href="#">Omega</a>
+                                                                </h5>
+                                                                <span class="cards__span">De Ville</span>
+                                                                <p class="cards__price">115 000 руб.</p>
+                                                                <div class="cards__hidden">
+                                                                    <a class="cards__btn btn btn--default btn--sm btn--fluid" href="#">Купить</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide swiper-slide--cards-main">
+                                                <div class="cards__item">
+                                                    <div class="cards__block cards__block--catalog">
+                                                        <div class="cards__inner">
+                                                            <div class="cards__image">
+                                                                <a class="cards__link" href="#">
+                                                                    <img src="pic/clock-2.jpg" alt="Omega" class="cards__picture">
+                                                                </a>
+                                                            </div>
+                                                            <div class="cards__content">
+                                                                <h5 class="cards__title">
+                                                                    <a class="cards__title-link" href="#">Omega</a>
+                                                                </h5>
+                                                                <span class="cards__span">De Ville</span>
+                                                                <p class="cards__price">115 000 руб.</p>
+                                                                <div class="cards__hidden">
+                                                                    <a class="cards__btn btn btn--default btn--sm btn--fluid" href="#">Купить</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide swiper-slide--cards-main">
+                                                <div class="cards__item">
+                                                    <div class="cards__block cards__block--catalog">
+                                                        <div class="cards__inner">
+                                                            <div class="cards__image">
+                                                                <a class="cards__link" href="#">
+                                                                    <img src="pic/clock-3.jpg" alt="Omega" class="cards__picture">
+                                                                </a>
+                                                            </div>
+                                                            <div class="cards__content">
+                                                                <h5 class="cards__title">
+                                                                    <a class="cards__title-link" href="#">Omega</a>
+                                                                </h5>
+                                                                <span class="cards__span">De Ville</span>
+                                                                <p class="cards__price">115 000 руб.</p>
+                                                                <div class="cards__hidden">
+                                                                    <a class="cards__btn btn btn--default btn--sm btn--fluid" href="#">Купить</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide swiper-slide--cards-main">
+                                                <div class="cards__item">
+                                                    <div class="cards__block cards__block--catalog">
+                                                        <div class="cards__inner">
+                                                            <div class="cards__image">
+                                                                <a class="cards__link" href="#">
+                                                                    <img src="pic/clock-4.jpg" alt="Omega" class="cards__picture">
+                                                                </a>
+                                                            </div>
+                                                            <div class="cards__content">
+                                                                <h5 class="cards__title">
+                                                                    <a class="cards__title-link" href="#">Omega</a>
+                                                                </h5>
+                                                                <span class="cards__span">De Ville</span>
+                                                                <p class="cards__price">115 000 руб.</p>
+                                                                <div class="cards__hidden">
+                                                                    <a class="cards__btn btn btn--default btn--sm btn--fluid" href="#">Купить</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide swiper-slide--cards-main">
+                                                <div class="cards__item">
+                                                    <div class="cards__block cards__block--catalog">
+                                                        <div class="cards__inner">
+                                                            <div class="cards__image">
+                                                                <a class="cards__link" href="#">
+                                                                    <img src="pic/clock-5.jpg" alt="Omega" class="cards__picture">
+                                                                </a>
+                                                            </div>
+                                                            <div class="cards__content">
+                                                                <h5 class="cards__title">
+                                                                    <a class="cards__title-link" href="#">Omega</a>
+                                                                </h5>
+                                                                <span class="cards__span">De Ville</span>
+                                                                <p class="cards__price">115 000 руб.</p>
+                                                                <div class="cards__hidden">
+                                                                    <a class="cards__btn btn btn--default btn--sm btn--fluid" href="#">Купить</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="view-more view-more--cards">
+                                            <a class="btn btn--default btn--lg btn--fluid" href="#">показать еще 12</a>
+                                        </div>
+                                        <div class="swiper-disc swiper-disc--cards-main">
+                                            <div class="disc"></div>
+                                        </div>
+                                        <div class="swiper-nav swiper-nav--cards-main">
+                                            <div class="prev prev--primary"></div>
+                                            <div class="next next--primary"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="page__row">
+                        <div class="page__cell">
+                            <div class="block">
+                                <div class="block__left">
+                                    <div class="block__image">
+                                        <div class="block__image-wrapper">
+                                            <img class="block__picture" src="pic/block-1.jpg" alt="block picture">
+                                        </div>
+                                        <img class="block__picture-abs" src="pic/block-2.jpg" alt="block picture">
+                                    </div>
+                                </div>
+                                <div class="block__right">
+                                    <div class="block__content">
+                                        <h2 class="block__title title title--h2">Галерея Времени</h2>
+                                        <p class="block__text text">Компания галерея времени более 10 лет занимается продажей часов швейцарских марок, и представляет самые известные бренды — Omega‚ Rado, Officine Pinerai, Longines, Maurice Locroi Orix, Tissot: и<br> другие.</p>
+                                        <p class="block__text text">Швейцарские часы Omega и других швейцарских марок, представленных у нас, заслужили популярность во всем мире, благодаря роскошному внешнему виду‚ безупречному качеству и надежности. Мы предлагаем исключительно оригинальные часы. Мировые производители швейцарских отказались от реализации своей продукции через интернет. Ведь только увидев реальности часы Omega и других швейцарских брендов, можно оценить по достоинству всю их красоту, изящество качество. Мы согласны с такой политикой и, поэтому у нас нет интернет-магазина.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page__row page__row--footer">
+                <div class="page__cell">
+                    <div class="footer">
+                        <div class="footer__top">
+                            <div class="footer__brand footer__brand--top">
+                                <a class="brand brand--footer" href="#">
+                                    <img class="brand__picture" src="img/svg/footer-brand.svg" alt="footer brand">
+                                </a>
+                            </div>
+                            <ul class="footer__blocks">
+                                <li class="footer__block">
+                                    <div class="footer__block-header" data-target=".footer__block-body">
+                                        <div class="footer__block-title">Галерея Времени<br> Ростов-на-Дону</div>
+                                    </div>
+                                    <div class="footer__block-body">
+                                        <div class="footer__block-content">
+                                            <p class="footer__loc">г. Ростов-на-Дону,<br> пер. Соборный, 22</p>
+                                            <a class="footer__tel" href="tel:+78632623824">+7 863 262-38-24</a>
+                                            <div class="social social--footer">
+                                                <ul class="social__items social__items--secondary">
+                                                    <li class="social__item social__item--secondary">
+                                                        <a class="social__link social__link--instagram social__link--secondary" href="#" target="_blank"></a>
+                                                    </li>
+                                                    <li class="social__item social__item--secondary">
+                                                        <a class="social__link social__link--facebook social__link--secondary" href="#" target="_blank"></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="footer__block">
+                                    <div class="footer__block-header" data-target=".footer__block-body">
+                                        <div class="footer__block-title">Галерея времени<br> Премиум</div>
+                                    </div>
+                                    <div class="footer__block-body">
+                                        <div class="footer__block-content">
+                                            <p class="footer__loc">г. Краснодар,<br> ул. Индустриальная, 2</p>
+                                            <a class="footer__tel" href="tel:+79180299969">+7 918 029-99-69</a>
+                                            <div class="social social--footer">
+                                                <ul class="social__items social__items--secondary">
+                                                    <li class="social__item social__item--secondary">
+                                                        <a class="social__link social__link--instagram social__link--secondary" href="#" target="_blank"></a>
+                                                    </li>
+                                                    <li class="social__item social__item--secondary">
+                                                        <a class="social__link social__link--facebook social__link--secondary" href="#" target="_blank"></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="footer__block">
+                                    <div class="footer__block-header" data-target=".footer__block-body">
+                                        <div class="footer__block-title">Репетир</div>
+                                    </div>
+                                    <div class="footer__block-body">
+                                        <div class="footer__block-content">
+                                            <p class="footer__loc">г. Ростов-на-Дону,<br> пр. Буденновский, 3</p>
+                                            <a class="footer__tel" href="tel:+79188567000">+7 918 856-70-00</a>
+                                            <div class="social social--footer">
+                                                <ul class="social__items social__items--secondary">
+                                                    <li class="social__item social__item--secondary">
+                                                        <a class="social__link social__link--instagram social__link--secondary" href="#" target="_blank"></a>
+                                                    </li>
+                                                    <li class="social__item social__item--secondary">
+                                                        <a class="social__link social__link--facebook social__link--secondary" href="#" target="_blank"></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="footer__block">
+                                    <div class="footer__block-header" data-target=".footer__block-body">
+                                        <div class="footer__block-title">Галерея времени Аксессуары</div>
+                                    </div>
+                                    <div class="footer__block-body">
+                                        <div class="footer__block-content">
+                                            <p class="footer__loc">г. Ростов-на-Дону,<br> пр. Буденновский, 3</p>
+                                            <a class="footer__tel" href="tel:+79188567000">+7 918 856-70-00</a>
+                                            <div class="social social--footer">
+                                                <ul class="social__items social__items--secondary">
+                                                    <li class="social__item social__item--secondary">
+                                                        <a class="social__link social__link--instagram social__link--secondary" href="#" target="_blank"></a>
+                                                    </li>
+                                                    <li class="social__item social__item--secondary">
+                                                        <a class="social__link social__link--facebook social__link--secondary" href="#" target="_blank"></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="footer__block footer__block--nav">
+                                    <div class="footer__block-header footer__block-header--none" data-target=".footer__block-body">
+                                        <div class="footer__block-title">Навигация</div>
+                                    </div>
+                                    <div class="footer__block-body">
+                                        <div class="footer__block-content">
+                                            <div class="footer__navs">
+                                                <nav class="footer__nav">
+                                                    <ul class="footer__nav-menu">
+                                                        <li class="footer__nav-item">
+                                                            <a class="footer__nav-link" href="#">Политика сбров ПДН</a>
+                                                        </li>
+                                                        <li class="footer__nav-item">
+                                                            <a class="footer__nav-link" href="#">Обватноя связь</a>
+                                                        </li>
+                                                        <li class="footer__nav-item">
+                                                            <a class="footer__nav-link" href="#">Оплата и доставка</a>
+                                                        </li>
+                                                        <li class="footer__nav-item">
+                                                            <a class="footer__nav-link" href="#">Возврат товара</a>
+                                                        </li>
+                                                        <li class="footer__nav-item">
+                                                            <a class="footer__nav-link" href="#">Контакты</a>
+                                                        </li>
+                                                    </ul>
+                                                </nav>
+                                                <nav class="footer__nav">
+                                                    <ul class="footer__nav-menu">
+                                                        <li class="footer__nav-item">
+                                                            <a class="footer__nav-link" href="#">Сервис и гарантия</a>
+                                                        </li>
+                                                        <li class="footer__nav-item">
+                                                            <a class="footer__nav-link" href="#">Контакты</a>
+                                                        </li>
+                                                        <li class="footer__nav-item">
+                                                            <a class="footer__nav-link" href="#">Отзывы</a>
+                                                        </li>
+                                                        <li class="footer__nav-item">
+                                                            <a class="footer__nav-link" href="#">Акции</a>
+                                                        </li>
+                                                        <li class="footer__nav-item">
+                                                            <a class="footer__nav-link" href="#">О компании</a>
+                                                        </li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__bottom">
+                            <div class="footer__brand footer__brand--bottom">
+                                <a class="brand brand--footer" href="#">
+                                    <img class="brand__picture" src="img/svg/footer-brand.svg" alt="footer brand">
+                                </a>
+                            </div>
+                            <p class="footer__text">Вся представленная на сайте информация носит ознакомительный характер и не является<br> публичной офертой, определяемой положениями Статьи 437(2) Гражданского кодекса РФ.</p>
+                            <p class="footer__copy"><span class="footer__copy-text">&copy; 2007-2020 ООО «АРС»</span> <a class="footer__policy" href="#">Политика конфиденциальности</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  ==== Load CSS ==== -->
+        <script>
+            function loadCSS(hf) {
+                var ms=document.createElement("link");ms.rel="stylesheet";
+                ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
+            }
+            loadCSS("libs/aos/aos.css");
+            loadCSS("libs/jquery.fancybox/jquery.fancybox.min.css");
+        </script>
+        <!--  ==== Load Scripts ==== -->
+        <script>var scr = {"scripts":[
+            {"src" : "js/jquery-3.4.1.min.js", "async" : false},
+            {"src" : "libs/swiper/swiper.min.js", "async" : false},
+            {"src" : "libs/aos/aos.js", "async" : false},
+            {"src" : "libs/jquery.fancybox/jquery.fancybox.min.js", "async" : false},
+            {"src" : "js/common.js", "async" : false},
+            ]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+        </script>
+    </body>
+</html>
